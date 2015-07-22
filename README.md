@@ -35,6 +35,7 @@ to
 
 4) Paste the following into your footer: 
 
+
     <script src="js/classie.js"></script>
 		<script>
 			(function() {
@@ -49,7 +50,7 @@ to
 					})();
 				}
 
-				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+			[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
 					// in case the input is already filled..
 					if( inputEl.value.trim() !== '' ) {
 						classie.add( inputEl.parentNode, 'input--filled' );
@@ -71,22 +72,25 @@ to
 				}
 			})();
 		</script>
-<br>
+
+
+
 5) Paste any section into your HTML where you want the input field to show up. Delete the line containing the name to get just the fields. 
-<br>
 Ex: 
+
+
 <section class="content bgcolor-1">
 				<h2 class="nomargin-bottom">Haruki</h2> <--Delete this line to get just input fields.
 				<span class="input input--haruki">
 					<input class="input__field input__field--haruki" type="text" id="input-1" />
 					<label class="input__label input__label--haruki" for="input-1">
-						<span class="input__label-content input__label-content--haruki">First Name</span>
+					<span class="input__label-content input__label-content--haruki">First Name</span>
 					</label>
 				</span>
 				<span class="input input--haruki">
 					<input class="input__field input__field--haruki" type="text" id="input-2" />
 					<label class="input__label input__label--haruki" for="input-2">
-						<span class="input__label-content input__label-content--haruki">Last Name</span>
+					<span class="input__label-content input__label-content--haruki">Last Name</span>
 					</label>
 				</span>
 				<span class="input input--haruki">
@@ -98,4 +102,6 @@ Ex:
 			</section>
 			
 <br>
+
+
 6) Customise any classes to fit in with the rest of your page.
