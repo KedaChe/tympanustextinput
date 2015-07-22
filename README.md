@@ -10,32 +10,35 @@ Instructions:<br>
 2) Rename entire folder "inputfields"
 <br>
 3) Paste the following into your header: 
+```
+    <link rel="stylesheet" type="text/css" href="inputfields/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="inputfields/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
 
-<link rel="stylesheet" type="text/css" href="inputfields/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="inputfields/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
-
-
-		<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-7243260-2']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-		</script>
-
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7243260-2']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+```
 Note: if you are using a text input field set from Set 2, change line 13 from 
-		<link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
+```
+<link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
+```
 to
-		<link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
+```
+<link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
+```
 
 4) Paste the following into your footer: 
 
-
+```
     <script src="js/classie.js"></script>
 		<script>
 			(function() {
@@ -73,11 +76,11 @@ to
 			})();
 		</script>
 
-
+```
 
 5) Paste any section into your HTML where you want the input field to show up. Delete the line containing the name to get just the fields. 
 Ex: 
-
+```
 
 <section class="content bgcolor-1">
 				<h2 class="nomargin-bottom">Haruki</h2> <--Delete this line to get just input fields.
@@ -100,7 +103,7 @@ Ex:
 					</label>
 				</span>
 			</section>
-			
+```			
 <br>
 
 
