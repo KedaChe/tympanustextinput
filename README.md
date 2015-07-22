@@ -1,12 +1,16 @@
 # tympanustextinput
 http://tympanus.net/Development/TextInputEffects/index.html
+<br>
 Taken from http://tympanus.net/Development/TextInputEffects/index.html Set 1 and Set 2. All files included here for easy integration into your own HTML code. None of this work is my own, just putting this here as an easy way to use for rapid prototyping of delightful experiences. 
-
-Instructions:
+<br>
+<br>
+Instructions:<br>
 1) Download zip or clone into desktop from command line using git clone https://github.com/shuyag/tympanustextinput.git
+<br>
 2) Rename entire folder "inputfields"
+<br>
 3) Paste the following into your header: 
-
+<br>
 <link rel="stylesheet" type="text/css" href="inputfields/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="inputfields/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
@@ -23,14 +27,15 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
-
+<br>
 Note: if you are using a text input field set from Set 2, change line 13 from 
 		<link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
 to
 		<link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
-		
+<br>
+<br>
 4) Paste the following into your footer: 
-
+<br>
     <script src="js/classie.js"></script>
 		<script>
 			(function() {
@@ -67,8 +72,9 @@ to
 				}
 			})();
 		</script>
-
+<br>
 5) Paste any section into your HTML where you want the input field to show up. Delete the line containing the name to get just the fields. 
+<br>
 Ex: 
 <section class="content bgcolor-1">
 				<h2 class="nomargin-bottom">Haruki</h2> <--Delete this line to get just input fields.
@@ -92,4 +98,5 @@ Ex:
 				</span>
 			</section>
 			
+<br>
 6) Customise any classes to fit in with the rest of your page.
