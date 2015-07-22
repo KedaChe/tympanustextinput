@@ -12,9 +12,9 @@ Instructions:<br>
 3) Paste the following into your header: 
 
 <link rel="stylesheet" type="text/css" href="inputfields/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="inputfields/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
+<link rel="stylesheet" type="text/css" href="inputfields/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
 
 
 <script type="text/javascript">
