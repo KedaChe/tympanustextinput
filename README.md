@@ -5,7 +5,7 @@ Taken from http://tympanus.net/Development/TextInputEffects/index.html Set 1 and
 <br>
 <br>
 Instructions:<br>
-1) Download zip or clone into desktop from command line using git clone https://github.com/shuyag/tympanustextinput.git
+1) Download zip or clone into desktop from command line using <br> git clone https://github.com/shuyag/tympanustextinput.git
 <br>
 2) Rename entire folder "inputfields"
 <br>
