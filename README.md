@@ -86,7 +86,8 @@ Ex:
 ```
 
 <section class="content bgcolor-1">
-				<h2 class="nomargin-bottom">Haruki</h2> <--Delete this line to get just input fields.
+				<!--Delete this line below to get just input fields.-->
+				<h2 class="nomargin-bottom">Haruki</h2> 
 				<span class="input input--haruki">
 					<input class="input__field input__field--haruki" type="text" id="input-1" />
 					<label class="input__label input__label--haruki" for="input-1">
