@@ -10,7 +10,7 @@ Instructions:<br>
 2) Rename entire folder "inputfields"
 <br>
 3) Paste the following into your header: 
-<br>
+
 <link rel="stylesheet" type="text/css" href="inputfields/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="inputfields/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
@@ -27,15 +27,14 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
-<br>
+
 Note: if you are using a text input field set from Set 2, change line 13 from 
 		<link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
 to
 		<link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
-<br>
-<br>
+
 4) Paste the following into your footer: 
-<br>
+
     <script src="js/classie.js"></script>
 		<script>
 			(function() {
