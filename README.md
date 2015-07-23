@@ -1,7 +1,9 @@
 # tympanustextinput
 http://tympanus.net/Development/TextInputEffects/index.html
 <br>
-Taken from http://tympanus.net/Development/TextInputEffects/index.html Set 1 and Set 2. All files included here for easy integration into your own HTML code. None of this work is my own, just putting this here as an easy way to use for rapid prototyping of delightful experiences. 
+Taken from http://tympanus.net/Development/TextInputEffects/index.html Set 1 and Set 2. All files included here for easy integration into your own HTML code. None of this work is my own, just putting this here as a sandbox for ease.
+
+This entire download is also available here: http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/
 <br>
 <br>
 Instructions:<br>
