@@ -19,7 +19,7 @@ $ git clone https://github.com/shuyag/tympanustextinput.git
     <link rel="stylesheet" type="text/css" href="inputfields/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="inputfields/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="inputfields/css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="inputfields/css/set2.css" />
+    <link rel="stylesheet" type="text/css" href="inputfields/css/set1.css" />
 
 	<script type="text/javascript">
 	var _gaq = _gaq || [];
